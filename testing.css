@@ -1,0 +1,155 @@
+
+.top{
+    background-color : rgb(0,88,162);
+    width: 100vw;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+.message{
+  color: white;
+  font-weight: lighter;
+  font-family: sans-serif;
+}
+.hero{
+  background-image: url("Sales.png");
+  width: 100vw;
+  height: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+
+.selections{
+  height: 300px;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.prev-box{
+  border-color: rgb(239,239,239);
+  border-width: 2px;
+  border-style: solid;
+  height: 90%;
+  width: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.prev{
+  color: rgb(239,239,239);
+}
+.info-bar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.next-box{
+  background-color: rgb(246,246,246);
+
+  height: 90%;
+  width: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.next{
+  color: silver;
+}
+
+
+.selections{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  width: 95vw;
+  
+}
+.glasses{
+  height: 90%;
+  width: 90vw;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+
+.product{
+  position: relative;
+  height: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+  
+}
+.img-box{
+  background-color: rgb(240,240,240);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 100%;
+  
+}
+.glass-img{
+  max-width: 70%;
+  max-height: 45%;
+}
+
+.names{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.info{
+  position: absolute;
+  bottom: -42%;
+}
+.prices{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  
+  width: 100%;
+
+}
+.crossed-out{
+  color: rgb(193,68,40);
+  text-decoration: line-through;
+  text-decoration-style: solid
+}
+
+.circle{
+  position: absolute;
+  z-index: 3;
+  height: 10vh;
+  width: 5vw;
+  top: -10%;
+  right: -4%;
+  
+  
+  
+  border-radius:50%;
+  background-color: rgb(255,73,26);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.discount{
+  color: white;
+}

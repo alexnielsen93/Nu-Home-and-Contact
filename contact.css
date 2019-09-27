@@ -1,0 +1,38 @@
+.contact_sheet{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+.right{
+  width: 47%;
+  height: 75%;
+  transform: skew(-20deg);
+  background: rgb(53,126,250);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-container{
+  transform: skew(20deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 75vh;
+  width:45vw;
+  
+}
+.input{
+  width: 30vw;
+  margin-bottom: 4vh;
+}
+.button{
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  width: 30vw;
+  height: 7vh;
+  margin-top: -10vh;
+}
